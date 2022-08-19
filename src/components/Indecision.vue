@@ -2,6 +2,9 @@
   <img v-if="img" :src="img" alt="bg">
   <div class="bg-dark"></div>
 
+  <h1>App de preguntas (chipaneitor ;)</h1>
+
+
   <div class="indecision-container">
     <input v-model="question" type="text" placeholder="Hazme una pregunta">
     <p>Recuerda terminar con  un signo de interrogacion(?)</p>
